@@ -1,4 +1,6 @@
-![Display Connection Diagram]("esp 32 spi display interface with 16pin tft display.png")
+<p align="center">
+  <img src="esp 32 spi display interface with 16pin tft display.png" alt="ESP32 Phone Display Connections" width="400"/>
+</p>
 ### 📱 ESP32 SPI Interface with 16-Pin Phone TFT Display
 
 Drive a salvaged 16-pin mobile TFT display (ST7789) using an ESP32 over SPI with minimal configuration.
@@ -50,7 +52,7 @@ Jumper wires
 (Optional) Reset connection
 
 🔌 Pin Configuration
-'''cpp
+```cpp
 #define TFT_MISO 19
 #define TFT_MOSI 23
 #define TFT_SCLK 18
@@ -58,7 +60,7 @@ Jumper wires
 #define TFT_CS   5   // Chip select
 #define TFT_DC   17  // Data/Command
 #define TFT_RST  4   // Optional (can be left unconnected)
-'''
+```
 ### ⚙️ Software Setup
 
 1. Install Library
@@ -68,12 +70,12 @@ Use the TFT_eSPI library.
 2. Configure User_Setup.h
 
 Set the following:
-'''cpp
+```cpp
 #define ST7789_DRIVER
 #define TFT_WIDTH  128
 #define TFT_HEIGHT 160
 #define TFT_RGB_ORDER TFT_RGB
-'''
+```
 Then apply the pin configuration above.
 
 ### ▶️ Usage
