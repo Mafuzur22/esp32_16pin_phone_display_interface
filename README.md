@@ -1,7 +1,8 @@
 <p align="center">
   <img src="esp 32 spi display interface with 16pin tft display.png" alt="ESP32 Phone Display Connections" width="400"/>
 </p>
-### 📱 ESP32 SPI Interface with 16-Pin Phone TFT Display
+
+## 📱 ESP32 SPI Interface with 16-Pin Phone TFT Display
 
 Drive a salvaged 16-pin mobile TFT display (ST7789) using an ESP32 over SPI with minimal configuration.
 
